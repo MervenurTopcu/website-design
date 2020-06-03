@@ -1,0 +1,469 @@
+/*ANASAYFA CSS KODLARI*/
+body{
+   
+    background-image: url(mezuniyet.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.genel{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    padding-top:40px;
+   background-color: white;
+  
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: black;
+    margin:30px 30px 30px 30px;
+    padding:30px 30px 30px 30px;
+    background-color:white;
+    border-bottom-width: 5px;
+    border-bottom-color: grey;
+    border-bottom-style: dashed;
+    border-top-width: 8px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+.nav ul{
+    list-style: none;
+    margin-left:30px;
+}
+.nav ul li{
+    float:left;
+}
+.nav ul li a{
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    display:inline-block;
+    background-color: #191919;
+    color:white;
+    font:14px verdana,arial;
+}
+.nav ul li a:hover{
+    background: yellowgreen;
+    color:white;
+}
+.solust{
+    border-top-left-radius: 10px;
+}
+.sagust{
+    border-top-right-radius: 10px;
+}
+.content{
+ margin-top:120px;
+background-color:white;
+width: 1000px;
+height:650px;
+}
+.eal-logo{
+    width: 150px;
+    height: 150px;
+    float:left;
+    margin:20px 20px 20px 20px;
+}
+.content resim{
+    width:50px ;
+    height: 50px;
+}
+.ayar{
+padding: 20px 20px;
+font-weight: bold;
+font-family: verdana,arial;
+font-size: 14px;
+color:black;
+}
+
+.footer{
+    background-color: #191919;
+    width: 1000px;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    clear:both;
+}
+.footer h4{
+    font-weight: bold;
+    
+    font-family: verdane,arial;
+    color:white;
+    padding: 20px 0px 0px 60px;
+}
+.footer iletisim{
+    
+    background-color:#191919;
+    margin: 20px 20px 20px 20px;
+    padding:10px 10px 10px 10px;
+}
+.iletisim ol li img{
+    border-radius:5px 5px 5px 5px;
+}
+
+.iletisim ol li{
+    
+    background-color: #191919;
+    margin:0px 500px 10px 10px;
+   
+    padding-bottom:40px;
+    padding-top: 10px;
+    list-style: none;
+    font-weight: bold;
+    font-size:11px;
+    color:whitesmoke;
+    font-family: verdana,arial;
+
+}
+/*FOTOGRAFLAR CSS KODLARI*/
+div.icerik{
+    padding-top:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-bottom:auto;
+}
+.icerik-bilgisi{
+    clear:both;
+    color:yellowgreen;
+}
+.icerik p{
+    color:black;
+    font-size:14px;
+    font-family: verdana,arial;
+    font-weight: bold;
+
+}
+.resim1{
+    float:left;
+    height:300px;
+    margin:auto 20px 20px 20px;
+    border-radius: 10px;
+}
+.resimler{
+   margin:50px;
+   width:900px;
+   height:500px;
+    
+}
+
+/*VİDEOLAR CSS KODLARI*/
+div.video-icerigi{
+    padding-top:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-bottom:auto;
+}
+.baslik{
+    clear:both;
+    color:yellowgreen;
+}
+.video{
+    width: 640px;
+    height: 360px;
+    margin-top:50px;
+}
+/*KAYIT OL CSS KODLARI*/
+.a{
+    margin-top:auto;
+    width: 1000px;
+    height:auto;
+   
+}
+.a h1{
+   text-align: center;
+    color:yellowgreen;
+    clear:both;
+   
+    
+}
+.b{
+    width:800px;
+    height:50px;
+    padding-left:400px;
+    
+	clear:both;
+}
+.satır{
+    width: 500px;
+    height: 30px;
+    background-color: yellowgreen;
+    text-align: right;
+    padding-right:10px;
+	margin-right:5px;
+	color:white;
+	font-size:20px;
+	text-align:right;
+	float:left;
+	margin-bottom:3px;
+	padding:0 10px 0 10px;
+}
+.dar{
+    height:50px;
+	line-height:50px;
+}
+.satır2{
+    width:400px;
+	float:left;
+	font-size:24px;
+	display: table;
+}
+input[type=text], input[type=password]{
+	width:300px;
+	height:25px;
+	padding:10px;
+	font-size:15px;
+	cursor:hand;
+	background-color:rgba(255,255,255,1);
+	border-width:0 0 3px 0;
+	border-color:#36486b;
+}
+select{
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right white;
+    -webkit-appearance: none;
+    background-position-x: 260px;
+	width:300px;
+	height:50px;
+	padding:10px;
+	font-size:15px;
+	cursor:hand;
+	border-width:0 0 5px 0;
+	border-color:#36486b;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	background-color:#191919;
+	color:white;
+	width:400px;
+}
+select:focus{
+	background-color:wheat;
+	color:grey;;
+	width:400px;
+	background-position-x: 360px;
+}
+input[type=radio], input[type=checkbox]{
+	width:20px;
+	height:20px;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    margin-top: 25px;
+	width:300px;
+	background-color:yellowgreen;
+	color:white;
+	height:40px;
+	letter-spacing:3px;
+}
+
+input[type=reset]{
+    border-radius: 10px;
+    margin-top: 25px;
+	width:150px;
+	background-color:yellowgreen;
+	color:white;
+	height:40px;
+	letter-spacing:2px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color:#191919;
+	cursor:hand;
+	letter-spacing:10px;
+}
+/*HABERLER CSS KODLARI*/
+.c{
+    margin-top:auto;
+    width: 1000px;
+    height:auto;
+}
+.c h1{
+    text-align: center;
+    color:yellowgreen;
+    clear:both;
+}
+.c p{
+    color:yellowgreen;
+    text-align: left;
+    margin-left:50px;
+    font-size:20px;
+    font-family:verdana,arial;
+    font-weight: bold;
+}
+table{
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+th{
+    font-size: 16px;
+    color:black;
+    background-color: rgb(135, 136, 133);
+}
+td{
+    text-align: center;
+    font-size: 14px;
+    font-family: verdana,arial;
+}
+/*GİRİŞ YAP CSS KODLARI*/
+.d{
+    border-radius: 20px;
+    width: 600px;
+    margin:50px 100px 100px 200px;
+    height: 600px;
+    background-color: #191919;
+}
+.e{
+    border:0;
+    letter-spacing: 2px;
+    float:left;
+    background: none;
+    display: block;
+    margin:50px 50px;
+    margin-left: 80px;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:14px 30px;
+    width: 100px;
+    height:60px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor:pointer;
+}
+.e p{
+    text-align: center;
+    color:white;
+    padding:0 10px 0 10px;
+    font-size:20px;
+}
+.e p a{
+    color:white;
+   text-decoration-line: none;
+}
+.e p a:hover{
+color:#191919;
+font-size:22px;
+}
+.f{
+    border:0;
+    letter-spacing: 2px;
+    float: left;
+    background: none;
+    display: block;
+    margin:50px 50px;
+    margin-left:50px;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:14px 30px;
+    width: 100px;
+    height:60px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor:pointer;
+}
+.f p a{
+    color:white;
+    text-decoration-line: none;
+}
+.f p a:hover{
+    color:#191919;
+font-size:22px;
+}
+
+
+.box{
+    width: 300px;
+    padding:40px;
+    position: absolute;
+    top:100%;
+    left:35%;
+   
+    background: #191919;
+    text-align: :center;
+}
+
+.box input[type="text"],.box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid rgb(59, 59, 226);
+    padding:14px 10px;
+    width: 200px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+width:280px;
+border-color:#2ecc71;
+}
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    width: 200px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor:pointer;
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+/*FORUM CSS KODLARI*/
+.box2 input[type="submit"]{
+    border:0;
+    background:#191919 ;
+    display: block;
+    margin:20px 70px 70px 70px;
+    text-align: center;
+    border:2px solid yellowgreen;
+    padding:14px 40px;
+    width: 200px;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    transition:0.25s;
+    cursor:pointer;
+    
+}
+label{
+    font-family: verdana,arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:60px;
+}
+textarea{
+    margin-left:50px;
+    border-radius: 3px;
+    border:3px solid yellowgreen ;
+    
+
+}
+/*KİŞİLER CSS KODLARI*/
+.h{
+    margin-left:320px;
+    border-radius: 5px;
+    border-color:rgb(110, 161, 32);
+}
+.z{
+    margin-left:220px;
+}
